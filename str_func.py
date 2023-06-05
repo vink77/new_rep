@@ -9,6 +9,8 @@ def big_letter(smal_string):
 
 def cap_letter(big_string):
 
+    """функция делает заглавными
+    первые буквы каждого слова в строке """
 
     string_list = big_string.split(" ")
     new_list = []
